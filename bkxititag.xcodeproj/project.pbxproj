@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D701B40FC1623D00EEDA6D /* BkXitiTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D701AC0FC1623D00EEDA6D /* BkXitiTag.h */; };
+		27D701B50FC1623D00EEDA6D /* BkXitiTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D701AD0FC1623D00EEDA6D /* BkXitiTag.m */; };
+		27D701B60FC1623D00EEDA6D /* BkXitiTagOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D701AE0FC1623D00EEDA6D /* BkXitiTagOperation.h */; };
+		27D701B70FC1623D00EEDA6D /* BkXitiTagOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D701AF0FC1623D00EEDA6D /* BkXitiTagOperation.m */; };
+		27D701B80FC1623D00EEDA6D /* BkXitiReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D701B00FC1623D00EEDA6D /* BkXitiReachability.h */; };
+		27D701B90FC1623D00EEDA6D /* BkXitiReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D701B10FC1623D00EEDA6D /* BkXitiReachability.m */; };
+		27D701BA0FC1623D00EEDA6D /* BkIPhoneInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D701B20FC1623D00EEDA6D /* BkIPhoneInformation.h */; };
+		27D701BB0FC1623D00EEDA6D /* BkIPhoneInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D701B30FC1623D00EEDA6D /* BkIPhoneInformation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27D701AC0FC1623D00EEDA6D /* BkXitiTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BkXitiTag.h; sourceTree = "<group>"; };
+		27D701AD0FC1623D00EEDA6D /* BkXitiTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BkXitiTag.m; sourceTree = "<group>"; };
+		27D701AE0FC1623D00EEDA6D /* BkXitiTagOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BkXitiTagOperation.h; sourceTree = "<group>"; };
+		27D701AF0FC1623D00EEDA6D /* BkXitiTagOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BkXitiTagOperation.m; sourceTree = "<group>"; };
+		27D701B00FC1623D00EEDA6D /* BkXitiReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BkXitiReachability.h; sourceTree = "<group>"; };
+		27D701B10FC1623D00EEDA6D /* BkXitiReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BkXitiReachability.m; sourceTree = "<group>"; };
+		27D701B20FC1623D00EEDA6D /* BkIPhoneInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BkIPhoneInformation.h; sourceTree = "<group>"; };
+		27D701B30FC1623D00EEDA6D /* BkIPhoneInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BkIPhoneInformation.m; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libbkxititag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbkxititag.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* bkxititag */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Classes */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = bkxititag;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27D701AC0FC1623D00EEDA6D /* BkXitiTag.h */,
+				27D701AD0FC1623D00EEDA6D /* BkXitiTag.m */,
+				27D701AE0FC1623D00EEDA6D /* BkXitiTagOperation.h */,
+				27D701AF0FC1623D00EEDA6D /* BkXitiTagOperation.m */,
+				27D701B00FC1623D00EEDA6D /* BkXitiReachability.h */,
+				27D701B10FC1623D00EEDA6D /* BkXitiReachability.m */,
+				27D701B20FC1623D00EEDA6D /* BkIPhoneInformation.h */,
+				27D701B30FC1623D00EEDA6D /* BkIPhoneInformation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libbkxititag.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D701B40FC1623D00EEDA6D /* BkXitiTag.h in Headers */,
+				27D701B60FC1623D00EEDA6D /* BkXitiTagOperation.h in Headers */,
+				27D701B80FC1623D00EEDA6D /* BkXitiReachability.h in Headers */,
+				27D701BA0FC1623D00EEDA6D /* BkIPhoneInformation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* bkxititag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "bkxititag" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bkxititag;
+			productName = bkxititag;
+			productReference = D2AAC046055464E500DB518D /* libbkxititag.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "bkxititag" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* bkxititag */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* bkxititag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D701B50FC1623D00EEDA6D /* BkXitiTag.m in Sources */,
+				27D701B70FC1623D00EEDA6D /* BkXitiTagOperation.m in Sources */,
+				27D701B90FC1623D00EEDA6D /* BkXitiReachability.m in Sources */,
+				27D701BB0FC1623D00EEDA6D /* BkIPhoneInformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = bkxititag;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = bkxititag;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "bkxititag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "bkxititag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

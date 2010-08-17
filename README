@@ -1,0 +1,3 @@
+BkXitiTag is a class that helps you send analytics to Xiti from your iPhone/iPod Touch application. Simply set your Xiti account parameters (xiti subdomain + website id + subsite id) then you can call tagPage to tag a page or tagAction to tag an action.
+
+Fork of http://code.google.com/p/bkxititag/
